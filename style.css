@@ -5,11 +5,21 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
-.logo {
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 1px;
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+.logo-box img {
+  width: 50px;
+}
+
+.logo-box span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 
 .logo span {
   color: #f4b400;
@@ -42,3 +52,4 @@ a:hover{
     transition: 0.5s;
 
 }
+
